@@ -1,0 +1,18 @@
+{
+  "name": "react-start-up-kit",
+  "version": "1.0.0",
+  "description": "A start up kit for React featuring ES6 support, ImmutableJS, and Karma testing",
+  "main": "index.js",
+  "author": "nicholas.l.sarlo@gmail.com",
+  "scripts": {
+    "clean": "rimraf server/public",
+    "test": "cross-env NODE_ENV=test karma start",
+    "test:ci": "cross-env NODE_ENV=test karma start --no-single-run --browsers Chrome --auto-watch",
+    "lint": "eslint **/*.js && stylelint **/*.scss",
+    "webpack": "webpack --display-error-details",
+    "webpack-watch": "webpack --progress --watch",
+    "start": "node server/app.js"
+  },
+  "author": "nick sarlo <nicholas.l.sarlo@gmail.com> (nicksarlo.com)",
+  "license": "ISC"
+}
