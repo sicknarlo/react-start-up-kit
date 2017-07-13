@@ -1,0 +1,24 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        [ "istanbul", {
+          "exclude": [
+            "node_modules",
+            "tests/index.js",
+            "tests/testutils/",
+            "**/*.spec.js"
+          ]
+        }]
+      ]
+    }
+  },
+  "presets": [
+    "react",
+    "es2015"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "syntax-dynamic-import"
+  ]
+}

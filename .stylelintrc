@@ -1,0 +1,14 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-hex-case": "upper",
+    "color-hex-length": "long",
+    "color-named": "never",
+    "font-family-name-quotes": "always-where-recommended",
+    "function-url-quotes": "always",
+    "indentation": 4,
+    "number-no-trailing-zeros": null,
+    "selector-attribute-quotes": "always",
+    "string-quotes": "double"
+  }
+}
